@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardBody = ({children}: {children: React.ReactNode}) => {
     return (
-      <div>
+      <div className='mb-3'>
           {children}
       </div>
     )
