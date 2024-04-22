@@ -1,9 +1,4 @@
-import {
-  Button,
-  OutlinedButton,
-  GhostButton,
-  SoftButton
-} from "./components/Buttons/Button";
+import Button from "./components/Buttons/Button";
 
 export default function Home() {
   return (
@@ -12,15 +7,6 @@ export default function Home() {
         <Button>
           Press me
         </Button>
-        <OutlinedButton>
-          Press me
-        </OutlinedButton>
-        <GhostButton>
-          Press me
-        </GhostButton>
-        <SoftButton>
-          Press me
-        </SoftButton>
       </main>
     </>
   );
